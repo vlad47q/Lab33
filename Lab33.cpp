@@ -20,7 +20,7 @@ int main()
         y = -x - 1 - R;
     }
     else if (x > -1 - R && x <= -1) {
-        y = sqrt(R * R - x + 1 * x + 1);
+        y = sqrt(R * R - (x + 1) * (x + 1));
     }
     else if (x > -1 && x < 1) {
         y = R;
